@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(page_bg.jpg);
+    object-fit: fill;
+}
+
+.container{
+    position: relative;
+    height: 50%;
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 25px #2f2f2f;
+    background-color: transparent;
+    backdrop-filter: blur(6px);
+    color: whitesmoke;
+}
+
+.frm{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+}
+
+#userIcon{
+    position: absolute;
+    top: 26%;
+    right: 9.5%;
+    z-index: 1;
+    font-size: 18px;
+}
+
+#lockIcon{
+    position: absolute;
+    top: 49%;
+    right: 9.5%;
+    z-index: 1;
+    font-size: 18px;
+}
+
+.login{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    top: 17px;
+    font-weight: 700;
+}
+
+.userdetails{
+    position: relative;
+    top: 100px;
+    width: 80%;
+    height: 30%;
+}
+
+input{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.label1{
+    position: absolute;
+    top: 17px;
+    left: 0%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.label2{
+    position: absolute;
+    top: 130px;
+    left: 0%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.Username{
+    position: relative;
+    width: 90%;
+    height: 30%;
+    padding: 5px;
+    right: 10px;
+    background-color: transparent;
+    outline: 0;
+    border: none;
+    border-bottom: 2px solid whitesmoke;
+
+}
+
+.Password{
+    width: 90%;
+    height: 30%;
+    position: relative;
+    top: 55px;
+    right: 10px;
+    padding: 5px;
+    background-color: transparent;
+    outline: 0;
+    border: none;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.btn{
+    position: relative;
+    top: 65%;
+    right: 2px;
+    height: 3em;
+    width: 100%;
+    font-size: 15px;
+    transition: 0.3s;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700; 
+    border: 2px solid whitesmoke;
+    border-radius: 200px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.postElements{
+    position: relative;
+    top: 83%;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    font-style: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+#forgotPassword{
+    position: relative;
+    left: 28%; 
+    text-decoration: none;
+    color: whitesmoke;
+    font-style: Arial, Helvetica, sans-serif;
+}
+
+#signup{
+    position: absolute;
+    left: 43%; 
+    top: 170%;
+    text-decoration: none;
+    color: whitesmoke;
+    font-style: Arial, Helvetica, sans-serif;
+}
+
+.btn:hover{
+    transform: translateY(-5px);
+}

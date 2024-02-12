@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Login Page</title>
+</head>
+<body>
+   
+    <div class="container">
+        <i class="fa-solid fa-user" id="userIcon"></i>
+        <i class="fa-solid fa-lock" id="lockIcon"></i>
+    
+        <form class="frm">
+            <label class=login>Login</label>
+
+            <div class="userdetails">
+                
+                <input type="text" name="username" class="Username">
+                <label class="label1" for="username">Username</label>
+
+                <input type="password" name="password" class="Password">
+                <label class="label2" for="password">Password</label>
+                
+                <button type="submit" class="btn">Proceed</button>
+
+                <div class="postElements">
+                    <label for="rememberMe" class="remember"><input type="checkbox" id="rememberMe" style="cursor:pointer">&nbspRemember Me</label>
+                    <a href="" target="_main" id="forgotPassword">Forgot Password</a>
+                    <a href="" target="_main" id="signup">Sign Up</a>
+                </div>
+                
+            </div>
+        </form>
+    </div>
+        
+    <script src="script.js"></script>
+</body>
+</html>
